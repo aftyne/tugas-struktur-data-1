@@ -8,7 +8,7 @@ public class DeclareVariable {
 
         int[] DelapanAngka = {12, 18, 23, 33, 58, 67, 82};
 
-        String[][] DuaAngka = {{"2", "4", "6"}, {"8, 10", "12"}, {"14", "16", "18"}};
+        String[][] DuaAngka = {{"2", "4", "6"}, {"8", "10", "12"}, {"14", "16", "18"}};
 
         LinkedList<Integer> UrutanListAngka = new LinkedList<>();
 
@@ -17,6 +17,7 @@ public class DeclareVariable {
         UrutanListAngka.add(33);
         UrutanListAngka.add(47);
         UrutanListAngka.add(59);
+        UrutanListAngka.remove(2);
 
         System.out.println(UrutanListAngka);
     }
